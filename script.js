@@ -89,7 +89,7 @@ function writePassword() {
         var finalPassword = [];
         // final math will store the results from passpool in final password var
         for (let index = 0; index < options.length; ++index) {
-            var randompass = Math.floor(Math.random() * passwordpool.length);
+            var randpass = Math.floor(Math.random() * passwordpool.length);
 
             finalPassword.push(passwordpool[randpass])
         }
